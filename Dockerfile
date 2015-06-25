@@ -64,7 +64,7 @@ ONBUILD RUN  source /tmp/docker.properties \
       && ls -al  /opt/${service_name}    \
       && ls -al  /var/log/${service_name} \
       && cat /etc/service/${service_name}/run    \
-      && rm -rf /tmp/
+      && rm -rf /tmp/*
 
 
                                                            
